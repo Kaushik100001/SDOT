@@ -1,0 +1,28 @@
+// Object and classes
+ class smartClass{
+    public static void main(int a ) {
+     System.out.println("Thsis is  a class " + a) ; 
+    }
+}
+
+
+
+public class Main {
+    
+    static void hello(){
+        System.out.println("Hello is called ") ; 
+    }
+    static void main()
+    
+    public static void main(String[] args) {
+        
+     System.out.println("Thsis is main class ") ;
+     smartClass smart = new smartClass() ; 
+     smart.main(5) ; 
+    // main() ; 
+     hello() ; 
+    //  Main obj = new Main() ; 
+    //  obj.hello() ; 
+     
+    }
+}

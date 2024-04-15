@@ -1,0 +1,23 @@
+//Function
+
+
+public class Main {
+     
+     static void bdayfn(){
+         System.out.println("Cry") ;
+     }
+    static void bdayfn(String boys){
+         System.out.println("Belt") ;
+     }
+     static void bdayfn(String boys , String girls ){
+         System.out.println("decent") ;
+     }
+     
+    
+    public static void main(String[] args) {
+        
+        bdayfn("BRS" , "BPS") ;
+    
+     
+    }
+}
